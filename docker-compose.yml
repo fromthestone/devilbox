@@ -325,6 +325,7 @@ services:
   # ------------------------------------------------------------
   mysql:
     image: devilbox/mysql:${MYSQL_SERVER}-0.15
+    # image: devilbox/mysql:${MYSQL_SERVER}-0.15
     hostname: mysql
 
     environment:
